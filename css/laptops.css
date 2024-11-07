@@ -1,0 +1,50 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* 1300px */
+@media (max-width:1301px) {
+
+    header {
+        padding-inline: 64px;
+    }
+
+    .section1 {
+        height: 560px;        
+        padding-top: 100px;
+    }
+
+
+
+    .section2 {
+        padding: 64px;
+    }
+
+
+
+    .s_section2 {
+
+      overflow-x: scroll;
+    }
+
+    .s2_article {
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+        width: 298px;
+    }
+
+
+
+
+/* footer */
+
+footer {
+    padding: 64px;
+}
+
+
+
+}

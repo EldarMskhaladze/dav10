@@ -1,0 +1,44 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* 880px - es leptops-Si unda ikos magrac carieli rcheboda*/
+@media (max-width:881px) {
+
+    header {
+        padding-inline: 24px;
+    }
+
+.h_section, .h_button {
+    display: none;
+}
+
+
+.h_bar {
+    display: block;
+}
+
+
+.section1 {
+    height:420px;        
+    padding-top: 80px;
+}
+
+
+.section2 {
+    padding: 24px;
+}
+
+
+/* footer */
+
+footer {
+    padding: 24px;
+}
+
+
+
+}

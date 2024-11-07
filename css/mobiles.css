@@ -1,0 +1,62 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* 480px */
+@media (max-width:481px) {
+
+    header {
+        padding-inline: 8px;
+    }
+
+
+    .section1 {
+        height:320px;        
+        padding-top: 60px;
+    }
+    
+    .section1 h2 {
+
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .section1 a img {
+        width: 40px;
+    }
+
+    .section2 {
+        padding: 24px 0px;
+    }
+    
+    .section2 h3 {
+        font-size: 24px;
+        weight:700;
+        line-height: 32px;
+        margin-bottom: 24px;
+        
+        }
+
+
+        .s2_article {
+            width: 260px;
+        }
+
+
+        /* footer */
+
+footer {
+    padding: 24px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 32px;
+}
+
+
+
+}

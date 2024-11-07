@@ -1,0 +1,247 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* main 1 */
+
+.main_contain {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    background-color: #311500;
+    padding: 18px 94px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+
+
+
+.menu_ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 16px;
+}
+
+
+
+.menu_li a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #DEE2EB;
+}
+
+.menu_li a:hover {
+    color: #C46A2B;
+}
+
+.h_button {
+    background: #C46A2B;
+    border-radius: 32px;
+    padding: 12px 18px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    color: #DEE2EB;
+
+}
+
+
+.h_bar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    background-color: #C46A2B;
+    display: none;
+}
+
+.fa-bars {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+
+
+/* SECTION 1 */
+
+.section1 {
+    width: 100%;
+    height: 640px;
+    background: url("../images/cover.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 120px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: TOP;
+        -ms-flex-align: TOP;
+            align-items: TOP;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    GAP: 32px;
+
+}
+
+.section1 h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    line-height: 56px;
+    color: #ffffff;
+}
+
+.section1 a img {
+    width: 56px;
+}
+
+/* section 2 */
+
+.section2 {
+    width: 100%;
+    padding: 94px;
+    background-color: #DEE2EB;
+}
+
+.section2 h3 {
+
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    weight: 700;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 56px;
+
+}
+
+
+.s_section2 {
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    GAP: 20px;
+}
+
+.s2_article {
+    background-color: #311500;
+    padding: 8px 8px 16px 8px;
+    width: 22%;
+}
+
+.art_div {
+    width: 100%;
+    height: 180px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.art_div img {
+    width: 100%;
+    height: 180px;
+}
+
+.s2_article h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #C46A2B;
+    margin-top: 16px;
+
+}
+
+
+.art_divtext {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+}
+
+.art_divtext p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #DEE2EB;
+
+}
+
+
+
+/* section 3 */
+
+footer {
+    background: #311500;
+    padding: 94px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 80px;
+    text-align: center;
+}
+
+.s_section3 h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #C46A2B;
+}
+
+.s_section3 a {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffff;
+}
